@@ -11,8 +11,5 @@ export default defineConfig({
       unwrapInjectedRef: true
     }
   },
-  build: {
-    outDir: 'dist', // El directorio de salida por defecto es "dist"
-    // ...
-  },
+  base: '/fastpokeinfo/'
 })
