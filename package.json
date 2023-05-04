@@ -1,16 +1,20 @@
 {
   "name": "pokevite",
   "private": true,
+  "homepage": "http://barreiromartin.github.io/fastpokeinfo",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite dist",
     "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^0.24.0",
     "bootstrap": "^5.2.3",
+    "gh-pages": "^5.0.0",
     "vue": "^3.2.20"
   },
   "devDependencies": {
