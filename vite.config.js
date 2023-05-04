@@ -10,5 +10,6 @@ export default defineConfig({
       // Configura unwrapInjectedRef a true para desenrollar las referencias inyectadas
       unwrapInjectedRef: true
     }
-  }
+  },
+  base: '/fastpokeinfo/'
 })
